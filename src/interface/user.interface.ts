@@ -8,4 +8,5 @@ export interface User {
   name: String;
   phoneNumber: String;
   balance: number;
+  history: Types.ObjectId[];
 }
